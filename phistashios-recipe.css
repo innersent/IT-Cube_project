@@ -1,0 +1,151 @@
+body{
+    background: linear-gradient(180.85deg, #FF97F5 0.64%, #FFF500 99.19%) fixed;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+
+a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    display: flex;
+}
+
+.main-block{
+    margin: auto;
+    width: 1000px;
+    min-height: 950px;
+    background: linear-gradient(129.79deg, #170036 0.67%, #CF46FF 100%) fixed;
+    border-radius: 40px;
+    margin-top: 3.5%;
+    position: relative;
+}
+
+.menu{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: auto;
+    text-indent: 50px;
+    text-transform: uppercase;
+}
+
+
+.navigation{
+    display: flex;
+    padding: 25px;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid rgba(160, 137, 99, 0.937);
+    padding: 20px;
+}
+
+
+.corner-title{
+    display: flex;
+    font-size: 21px;
+    padding-left: 50px;
+}
+
+.home-link{
+    display: flex;
+    transition: 500ms;
+}
+
+.home-link:hover{
+    color: rgb(46, 233, 254);
+    transform: scale(1.1);
+}
+
+.menu-components:hover{
+    color: #f83d78;
+    transform: scale(1.1);
+}
+
+.menu-components{
+    transition: 500ms;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+.banana-recipe{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.ingrid-title{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-ingrid{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.main-porridge{
+    width: 400px;
+    height: 250px;
+    border-radius: 9px;
+}
+
+.images{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    z-index: 1;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+.phist-recipe{
+    position: absolute;
+    top: 123px;
+    left: 380px;
+    width: 300px;
+    height: 300px;
+}
+
+.apple-mix{
+    position: absolute;
+    top: 700px;
+    left: 800px;
+    width: 150px;
+    height: 200px;
+}
+
+.green-limon{
+    position: absolute;
+    top: 378px;
+    left: 700px;
+    width: 155px;
+    height: 185px;
+}
+
+.health-stick{
+    position: absolute;
+    top: 23px;
+    left: 138px;
+}
+
+.health-apple{
+    position: absolute;
+    top: 11.3px;
+    left: 134px;
+}

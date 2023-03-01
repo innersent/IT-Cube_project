@@ -1,0 +1,164 @@
+body{
+    background: linear-gradient(180.85deg, #FF97F5 0.64%, #FFF500 99.19%) fixed;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+
+a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    display: flex;
+}
+
+.main-block{
+    margin: auto;
+    width: 1000px;
+    min-height: 1100px;
+    background: linear-gradient(129.79deg, #170036 0.67%, #CF46FF 100%) fixed;
+    border-radius: 40px;
+    margin-top: 3.5%;
+    position: relative;
+}
+
+.menu{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: auto;
+    text-indent: 50px;
+    text-transform: uppercase;
+}
+
+
+.navigation{
+    display: flex;
+    padding: 25px;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid rgba(160, 137, 99, 0.937);
+    padding: 20px;
+}
+
+
+.corner-title{
+    display: flex;
+    font-size: 21px;
+    padding-left: 50px;
+}
+
+.home-link{
+    display: flex;
+    transition: 500ms;
+}
+
+.home-link:hover{
+    color: rgb(46, 233, 254);
+    transform: scale(1.1);
+}
+
+.menu-components:hover{
+    color: #f83d78;
+    transform: scale(1.1);
+}
+
+.menu-components{
+    transition: 500ms;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+.choco-recipe{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.ingrid-title{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-ingrid{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.main-porridge{
+    width: 400px;
+    height: 250px;
+    border-radius: 9px;
+}
+
+.images{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    z-index: -1;
+}
+
+.last-sent{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.mix-fruits-img{
+    position: absolute;
+    top: 408px;
+    left: 739px;
+    width: 165px;
+    height: 165px;
+}
+
+.strawberry-img{
+    position: absolute;
+    top: 821px;
+    left: 550px;
+    width: 150px;
+    height: 165px;
+}
+
+.choco-recipe-por{
+    position: absolute;
+    top: 119px;
+    left: 391px;
+    width: 300px;
+    height: 300px;
+}
+
+/* .choco-splash{
+    position: absolute;
+    top: 824px;
+    left: 870px;
+    width: 160px;
+    height: 160px;
+    transform: rotate(265deg);
+} */
+
+.health-stick{
+    position: absolute;
+    top: 23px;
+    left: 138px;
+}
+
+.health-apple{
+    position: absolute;
+    top: 11.3px;
+    left: 134px;
+}

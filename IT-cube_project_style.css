@@ -1,0 +1,395 @@
+body{
+    background: linear-gradient(180.85deg, #FF97F5 0.64%, #FFF500 99.19%) fixed;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+html {
+    -webkit-text-size-adjust : none;
+    text-size-adjust         : none
+}
+
+
+a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    display: flex;
+}
+
+.main-block{
+    margin: auto;
+    width: 1000px;
+    min-height: 1900px;
+    background: linear-gradient(129.79deg, #170036 0.67%, #CF46FF 100%) fixed;
+    border-radius: 40px;
+    margin-top: 3.5%;
+    position: relative;
+}
+
+.menu{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    /* border-bottom: 1px solid rgba(160, 137, 99, 0.937); */
+    padding-bottom: 10px;
+    width: 90%;
+    margin: auto;
+    text-indent: 50px;
+    text-transform: uppercase;
+}
+
+.navigation{
+    display: flex;
+    padding: 25px;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid rgba(160, 137, 99, 0.937);
+    padding: 20px;
+}
+
+
+.corner-title{
+    display: flex;
+    font-size: 21px;
+    padding-left: 50px;
+}
+
+.home-link{
+    display: flex;
+    transition: 500ms;
+}
+
+
+.home-link:hover{
+    color: rgb(46, 233, 254);
+    transform: scale(1.1);
+}
+
+.main-quote{
+    font-size: 36px;
+    background-image: url(./3.png), url(./background-circle.png); /* url(./fiolet-porridge.PNG), url(./banana-porridge.PNG), url(./berry-porridge.PNG); */
+    background-repeat: no-repeat;
+    height: 471px;
+    background-size: 350px, 350px;
+    background-position: 0 53%, 100% 20%, 660px 20px, 600px 258px;
+    display: flex;
+    align-items: center;
+}
+
+
+.mini-quote{
+    font-size: 23px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.big-quote{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    font-size: 80px;
+    letter-spacing: 1px;
+}
+
+
+.hint{
+    display: flex;
+    justify-content: center;
+    margin-top: -12%;
+}
+
+
+
+
+.recipe-link{
+    background: linear-gradient(129.79deg, #ff5468 0.67%, #ff4157 0.68%, #7311AE 73.61%, #640278 99.99%);;
+    width: 9.2em;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    border-radius: 13px;
+    font-size: 17px;
+    transition: 500ms;
+}
+
+
+.recipes-button{
+    margin-left: 10%;
+}
+
+.recipe-link:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 3px #f83d78;
+}
+
+
+.menu-components{
+    transition: 500ms;
+}
+
+.menu-components:hover{
+    color: #f83d78;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.trend-title{
+    font-size: 75px;
+    margin: auto;
+    text-align: center;
+    text-transform:capitalize;
+    margin-bottom: 40px;
+    margin-top: 10%;
+    background-image: url(./background-circle.png);
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position: 100%;
+}
+
+.title{
+    opacity: 1;
+}
+
+.porridge-piсts{
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.porridge-pict1{
+    height: 190px;
+    width: 277px;
+}
+
+.porridge-pict2{
+    height: 170px;
+}
+
+.trend-recipes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.orange{
+    width: 130px;
+    height: 130px;
+    
+}
+
+.orange-image{
+    position: absolute;
+    top: 635px;
+    left: 9px;
+    transform: rotate(270deg);
+}
+
+.apple{
+    width: 130px;
+    height: 130px;
+}
+
+.apple-image{
+    position: absolute;
+    top: 647px;
+    left: 865px;
+    transform: rotate(350deg);
+}
+
+.banana{
+    width: 100px;
+    height: 100px;
+}
+
+.banana-image{
+    position: absolute;
+    top: 79px;
+    left: 42px;
+    transform: rotate(20deg);
+}
+
+.quiwi{
+    width: 100px;
+    height: 100px;
+}
+
+.quiwi-fresh{
+    position: absolute;
+    top: -5px;
+    left: 283px;
+    transform: rotate(180deg);
+}
+
+.porridge-img{
+    border: 3px solid #f83d78;
+    border-radius: 10px;
+    transition: 500ms;
+    font-size: 20px;
+    width: 350px;
+    margin-left: 2%;
+    height: 300px;
+}
+
+.porridge-img:hover{
+    transform: scale(0.9);
+    background-color: #f83d78;
+    
+}
+
+.porridge-img1:hover{
+    border: 3px solid #f83d78;
+    background-color: rgba(187, 158, 111, 0.937);
+}
+
+
+
+.porridge-img2:hover{
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.porridge-img3:hover{
+    border: 3px solid #f83d78;
+    background-color: #fffa69;
+}
+
+.porridge-img4{
+    display: flex;
+}
+
+.porridge-pict4{
+    height: 180px;;
+}
+
+.porridge-img4:hover{
+    background-color: rgb(114, 74, 37);
+}
+
+.porridge-img5:hover{
+    background-color: rgb(79, 165, 79);
+}
+
+.porridge-img5{
+    height: 310px;
+}
+
+.porridge-img6{
+    display: flex;
+}
+
+.porridge-img6:hover{
+    background-color: white;
+    color: #f83d78;
+}
+
+.porridge-img6:hover a{
+    color: #f83d78;
+}
+
+.porridges{
+    display: flex;
+}
+
+.fiolet-porridge{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 65px;
+    left: 420px;
+}
+
+
+.banana-porridge-img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 105px;
+    left: 740px;
+}
+
+.berry-porridge{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 367px;
+    left: 675px;
+}
+
+.tropic-porridge{
+    width: 140px;
+    height: 135px;
+    position: absolute;
+    top: 100px;
+    left: 635px;
+}
+
+.red-porridge{
+    width: 95px;
+    height: 130px;
+    position: absolute;
+    top: 243px;
+    left: 760px;
+}
+
+.network-links{
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+    margin-right: 30px;
+    gap: 15px;
+}
+
+.quote-underline{
+   position: absolute;
+   top: 309px;
+   left: 240px;
+}
+
+.wk-link{
+    transition: 500ms;
+}
+
+.wk-link:hover{
+    transform: scale(1.1);
+}
+
+.youtube-link{
+    transition: 500ms;
+}
+
+.youtube-link:hover{
+    transform: scale(1.1);
+}
+
+.health-stick{
+    position: absolute;
+    top: 23px;
+    left: 138px;
+}
+
+.health-apple{
+    position: absolute;
+    top: 11.3px;
+    left: 134px;
+}
+
+.arrow{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 424px;
+    left: 520px;
+}
+
+
